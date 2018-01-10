@@ -1,0 +1,418 @@
+ Copyright 2017 Kenedy Cheruiyot, i17/pu/0165/13. All rights reserved. 
+@charset "utf-8";
+/* CSS Document */
+
+*
+@page {
+size: auto;
+margin: 10%;
+}
+/*Hyperlink for login and registration toggle*/
+.login__signup {
+  font-size: 1.2rem;
+  color: #151718;
+}
+
+{
+    padding:0;
+    margin:0;
+}
+.footer {
+  position: relative;
+  bottom: 20px;
+  right: 0px;
+  width: 100%;
+  font-size: 20px;
+  background-color:#d2f3f3;
+  text-align: center;
+  z-index: 4;
+ 
+  margin-top: 60px;
+  text-shadow: 0 0px 1px black;
+}
+.menu{
+    float: center;
+    margin-left: 250px; 
+    margin-right: 400px;
+    margin-top: 20px;
+    position: relative;
+}
+/*Container features and appearance*/
+.container {
+    box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+    width:600px;
+    height:auto;
+    border-radius:30px;
+    text-align:center;
+    margin: 0 auto;
+    min-width: 180px;
+    background-color: #2e8da7;
+    margin-top: 110px;
+    
+}
+
+
+.container1 {
+    width:600px;
+    height:auto;
+    text-align:center;
+    margin: 0 auto;
+    min-width: 180px;
+    background-color: #2e8da7;
+    margin-top: 110px;
+    
+}
+.container img{
+    width:120px;
+    height:120px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+/*Hyperlink for login and registration toggle*/
+.login__signup a {
+  color: #151718;
+  cursor: pointer;
+}
+/*Command button appearance*/
+.btn{
+    padding:10px 20px;
+    color:#fff;
+    border-radius:4px;
+    border: none;
+    background-color:#2EC1CC;
+    border-bottom:5px solid #121321;
+    border-top: 5px solid #121321;
+    width:auto;
+    height:auto;
+    
+}
+
+/*Input fields appearance*/
+input{
+    height:30px;
+    width:200px;
+    font-size:14px;
+    margin-bottom:20px;
+    background-color:#fff;
+    padding-left:20px;
+}
+table{
+    border-radius:30px;
+    box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+    border:none;
+    
+}
+td{
+    border:none;
+}
+/*Table, table data, select and label control appearance*/
+table td,th,select,label,select{
+    height:30px;
+    width:200px;
+    font-size:14px;
+    font-style:bold;
+    
+    opacity: 1.1;
+
+
+
+    
+
+}
+/*Cell contents appearance*/
+tr{
+    height:50px;
+    width:200px;
+    font-size:15px;
+    font-style:bold;
+
+    
+}
+/*Submit button within table appearance*/
+table submit{
+    height:40px;
+    width:200px;
+    font-size:15px;
+    font-style:bolder;
+    margin-bottom:20px;
+    padding-left:20px;
+    
+
+}
+/*Body appearance*/
+body
+{
+    min-height: 100vh; background-position: center center; background-size: cover; position: relative;
+    background-image: url("music.jpg");
+    background-repeat: no-repeat; 
+    backface-visibility:inherit;
+    font-family:Comic Sans;
+    font-size:30px;
+    text-align:center;
+}
+/*Main header appearance*/
+.main-header{
+    position: fixed;
+    height:110px;
+    margin:0 auto;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    background-color: rgba(29, 195, 195, 0.2);
+    padding:1 em 2 em;
+    border:2px solid #26759a9;
+    border-top:none;
+    font-size:20px;
+    font-family:Comic Sans;
+}
+.tr{
+    margin:0 auto;
+    width:75%;
+    min-height:90px;
+    padding:1 em 2 em;
+    border:2px solid #26759a9;
+    border-top:none;
+    border-radius: 0 0 5px 5 px;
+    font-size:15px;
+    font-family:Comic Sans;
+}
+.menu-icon{
+    width:100%;
+    background-color: #2abce3;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: #fff;
+    display:none;
+}
+/*Main navigation menu appearance*/
+.main-nav{
+    font-family:Comic Sans;
+    font-size: 15px;
+    background-color: #2abce3;
+    float:center;
+    border-radius:6px;
+    margin-top:8px;
+    border:solid 1px #1e2a36;
+    display:inline-block;
+    margin-left: 0 auto;
+    margin-right:auto;
+    border:none;
+    background:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+ 
+/*Strip the ul of padding and list styling*/
+ul {
+    margin:0;
+    padding:0;
+    display: block;
+    list-style-type: none;
+    
+}
+
+/*Create a horizontal list with spacing*/
+li {
+    float: right;
+    background-color:rgb(0,0,0.1,0.1);
+    margin-right: 0px;
+    margin-top:1px;
+    margin-bottom: 1px;
+
+}
+
+/*Style for menu links*/
+li a {
+    display:block;
+    min-width:185px;
+    height: auto;
+    text-align: center;
+    line-height: 50px;
+    font-family:Comic Sans;
+    color: #2abce3;
+    background:rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+/*Style for menu links under unordered list*/
+ul li a{
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+/*Style for unordered list under unordered list*/
+ul ul {
+    position: absolute;
+    visibility: hidden;
+    width: 185px;
+    height: auto;
+}
+/*Style for menu links under unordered list hover effects*/
+ul li:hover ul{
+    visibility: visible;
+}
+/*Hover state for top level links*/
+li:hover a {
+    background: #24b9c5;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: auto;
+    line-height: auto;
+    display: block;
+    position:static;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+    display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+    float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + 
+.hidden, .hidden:hover {
+    display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family:"comic Sans";
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+    position: relative;
+    background-color: #0066FF;
+    overflow: auto;
+    visibility: visible;
+    z-index: auto;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/*header appearance*/
+#header{
+    background:#00a2d1;
+    width:100%;
+    height:50px;
+    color:#fff;
+    font-size:36px;
+    font-family:Verdana, Geneva, sans-serif;
+    
+}
+/*body appearance*/
+#body{
+    margin-top:100px;
+}
+/*form text size */
+.body form{
+    text-size:50px;
+}
+/*table appearance*/
+#body table
+{
+    align:center;
+    margin:0 auto;
+    position:relative;
+    bottom:50px;
+    width:auto;
+}
+/*Responsive Styles*/
+
+@media screen and (max-width: 800px) {
+    .menu {
+        position: relative;
+        min-height: 40px;
+    }   
+    .menu ul {
+        width: 180px;
+        padding: 5px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: solid 1px #aaa;
+        background: #fff url(images/icon-menu.png) no-repeat 10px 11px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    }
+    .menu li {
+        display: none; /* hide all <li> items */
+        margin: 0;
+    }
+    .menu .current {
+        display: block; /* show only current <li> item */
+    }
+    .menu a {
+        display: block;
+        padding: 5px 5px 5px 32px;
+        text-align: center;
+    }
+    .menu .current a {
+        background: none;
+        color: #666;
+    }
+
+    /* on nav hover */
+    .menu ul:hover {
+        background-image: none;
+    }
+    .menu ul:hover li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    .container {
+        width:100%;
+    }
+    .container1 {
+        width:100%;
+    }
+    
+ul li:hover ul{
+    visibility: visible;
+}
+/*Hover state for top level links*/
+li:hover a {
+    background: #24b9c5;
+}
+}
+
+
+

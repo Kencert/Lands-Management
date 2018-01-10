@@ -1,0 +1,43 @@
+ Copyright 2017 Kenedy Cheruiyot, i17/pu/0165/13. All rights reserved. 
+@charset "utf-8";
+/* CSS Document */
+
+*
+@page {
+size: auto;
+margin: 10%;
+}
+
+table {
+    
+    
+    font-size:25px;
+    font-style:bolder;
+    
+    height: 80%;
+    width:80%;
+
+}
+/*Body appearance*/
+body
+{
+    min-height: 90vh;
+    min-width: 60vh;
+    background-position: center center; 
+    position: relative;
+    font-family:Comic Sans;
+    font-size:20px;
+    text-align:left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+
+    border:solid;
+    height: 100%;
+    width: 95%;
+}
+h2
+{
+    text-align: left;
+    margin-left: 80px;
+}
